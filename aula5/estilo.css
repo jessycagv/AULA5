@@ -1,0 +1,91 @@
+#total{
+    width: 960px;
+    height: auto;
+    margin: auto; /*centraliza a divisão na página*/
+
+}
+#topo{
+    width: 960px;
+    height: auto;
+    float: left;
+    background-color: maroon;
+
+}
+#logo{
+    width: 200px;
+    height: 60px;
+    margin: 10px auto; /*top right bottom left*/
+    background-color: white;
+
+}
+
+#banner{
+    width: 960px;
+    height: 300px;
+    float: left;
+    background-image: url("../aula5/banner.jpg");
+
+}
+
+#menu{
+    width: 210px;
+    height: 265px;
+    float: left;
+    background-image: url(../aula5/menu.png);
+    padding-top: 35px;
+}
+
+#menu a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase; /*ficar em maiusculo*/
+    margin-bottom: 15px; 
+    /*padding-top: 2px;
+    padding-right: 0px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+     MANEIRA SIMPLIFICADA USANDO APENAS O PADDING, NA ORDEM TOP, RIGHT,BOTTOM, LEFT*/
+    padding: 2px 0px 2px 8px;
+
+}
+#menu a:hover{ /*HOVER logica comportamento, eventos, quando o mouse tiver em cima acontece algo*/
+    background-image: url(../aula5/menu.png);
+}
+
+#conteudo{
+    width: 960px;
+    height: auto;
+    float: left;
+}
+#rodape{
+    width: 960px; /*altura*/
+    height: 25px; /*largura*/
+    float: left; /*alinhamento*/
+}
+
+.box {/*toda vez que tiver pontinho é uma classe*/
+width: 120px;
+height: 90px;
+float: left;
+border: solid 8px rgb(141, 107, 84);
+margin: 0px 10px 20px 10px;
+
+}
+
+body{ /*sem tralha pois não é ID, é só comando html*/
+    background-image: url(../aula5/background.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: bottom center;
+
+}
+
+h1 {
+    background-image: url(../aula5/gradiente.png);
+    color: #FFF;
+    padding: 2px 10px;
+    margin: 20px 0px;
+    
+}
